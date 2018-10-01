@@ -63,6 +63,7 @@ def makeWiki(url):
                     for kanji,yomi in zip(kanjis,yomis):
                         if kanji != yomi:
                             result += yomi + "\t" + kanji +"\t" + "名詞" + "\t"+"\n"
+                            
     title = urllib.parse.unquote(title) 
     return result,title
 
