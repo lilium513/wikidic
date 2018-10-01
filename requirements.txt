@@ -1,5 +1,6 @@
 Flask==1.0.2
-bs4 
+bs4
+requests
 Jinja2==2.10
 Markdown==2.6.11
 MarkupSafe==1.0
