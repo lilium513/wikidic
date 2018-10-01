@@ -16,7 +16,7 @@
                     $('#nowloading').css('visibility','visible');
                     dicUrl = $("#dicUrl").val();
                     $.ajax({
-                        url: "http://127.0.0.1:5000/hello",
+                        url: "/hello",
                         type: 'POST',
                         dataType: 'text',
                         data: { "dicUrl": dicUrl }
